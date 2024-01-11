@@ -1,0 +1,68 @@
+.container-form-info {
+    width: 60%;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.separador {
+    height: 2px;
+    width: 15%;
+    background-color: grey;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.slider {
+    width: 50%;
+    color: black;
+    padding: 1rem 0;
+}
+.info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.info button {
+    background-color: green;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+.info button:hover {
+    box-shadow: 0 0 5px 1px grey;
+}
+.slick-prev {
+    color: black !important;
+}
+
+/* Flecha derecha */
+.slick-next {
+    color: black !important;
+}
+@media (max-width: 900px) {
+    .container-info {
+        flex-direction: column;
+    }
+    .slider {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+    }
+}
