@@ -2,7 +2,12 @@ import "./FormInfo.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import imagen1 from "./../../assets/imagen1.jpeg";
+import imagen1 from "./../../assets/imagen1.webp";
+import imagen2 from "./../../assets/imagen2.webp";
+import imagen3 from "./../../assets/imagen3.webp";
+import imagen4 from "./../../assets/imagen4.webp";
+import imagen5 from "./../../assets/imagen5.webp";
+import imagen6 from "./../../assets/imagen6.webp";
 
 const FormInfo = ({ settings, handleWhatsAppButtonClick }) => {
     return (
@@ -19,10 +24,12 @@ const FormInfo = ({ settings, handleWhatsAppButtonClick }) => {
                     }}
                 >
                     <Slider {...settings}>
-                        <img src={imagen1} alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                        <img src={imagen1} alt="WPC WallPanel wood madera " />
+                        <img src={imagen2} alt="WPC WallPanel wood madera " />
+                        <img src={imagen3} alt="WPC WallPanel wood madera " />
+                        <img src={imagen4} alt="WPC WallPanel wood madera " />
+                        <img src={imagen5} alt="WPC WallPanel wood madera " />
+                        <img src={imagen6} alt="WPC WallPanel wood madera " />
                     </Slider>
                 </div>
                 <div className="info">

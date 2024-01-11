@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: aparecer 0.5s ease forwards;
+    animation: aparecer 0.8s ease forwards;
 }
 .container-info {
     width: 100%;
@@ -28,6 +28,10 @@
     width: 50%;
     color: black;
     padding: 1rem 0;
+}
+.slider img {
+    max-height: 20rem;
+    background-size: contain;
 }
 .info {
     width: 50%;
