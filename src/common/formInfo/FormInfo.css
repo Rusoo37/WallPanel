@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: aparecer 0.5s ease forwards;
 }
 .container-info {
     width: 100%;
